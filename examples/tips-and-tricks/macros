@@ -1,0 +1,25 @@
+Convert:
+
+a: apple
+b: banana
+c: cherry
+
+to:
+
+{
+    'a': apple;
+    'b': banana;
+    'c': cherry
+}
+------------------------
+
+a: apple
+b: banana
+c: cherry
+
+
+
+
+
+
+

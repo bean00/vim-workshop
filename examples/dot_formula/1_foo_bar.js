@@ -9,3 +9,7 @@
 var foo = 1
 var bar = 'a'
 var foobar = foo + bar
+
+/**
+ * Add a ';' to the end of each line
+ */

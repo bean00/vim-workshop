@@ -1,0 +1,108 @@
++-----------+
+| Exercises |
++-----------+
+
+Instructions:
+Please complete as many of the following exercises as you can. Feel free to
+look things up online. Just try to arrive at the best answer / method
+possible with each exercise. Have fun!
+--------------------------------------------------------------------------
+
+1) Quickest Copy and Paste
+Type out the least amount of keystrokes to end up with 5 total copies of this
+line, each on their own line:
+
+Copy this line
+
+-> yypppp (yy4p)
+--------------------------------------------------------------------------
+
+2) Quickest Way to Copy a Word
+Type out the least amount of keystrokes to copy '<this>' and paste it on the
+following line (start at the '<' character).
+
+Copy <this> and paste it in the next line:
+
+-> yiWjp (yt<space>jp)
+
+>> *Helpful hint*: Can use 'W' to refer to Vim WORD (also 'E' and 'B')
+--------------------------------------------------------------------------
+
+3) Visual Mode Selection
+Type out 3 sets of keystrokes you can use to select the last 3 words (start at
+the 'l' in last).
+
+Select the last three words
+
+Ex: vbbb (<- NOT one of the answers)
+
+1. veeel
+2. v$
+3. vllllllllllllllll
+
+Bonus: What commands could you use to select the whole line?
+
+-> Shift-v
+
+>> *Helpful hint*: Can use 'o' to toggle the selected end
+--------------------------------------------------------------------------
+
+4) Visual Block Mode
+Capitalize all the 'b's in only 6 keystrokes (starting anywhere). Type out the
+keystrokes for your answer.
+
+aaaaa
+abbba
+abbba
+aaaaa
+
+-> <C-v>lljU
+--------------------------------------------------------------------------
+
+5) Quickest Way to Edit Code Inside a Code Block
+Type out keystrokes to edit the body of this function to just be 'x' (start at
+the beginning of the console.log line).
+
+function(a, b) {
+    console.log("Let's add 2 numbers");
+    return a + b;
+}
+
+-> ci{<tab>x
+--------------------------------------------------------------------------
+
+6) Finding and Editing a Specific Word
+Change the word 'rhinos' to 'rabbits' (start at the beginning of the line).
+
+The zoo right there has many rhinos that are eating very happily.
+
+-> fr;;ciw rabbits (6wciw rabbits)
+--------------------------------------------------------------------------
+
+7) Quickest Way to Copy Code Into an Empty Function
+Move the three 'let' lines into the body of the function, with the correct
+indentation (4 spaces indented) (start at the beginning of the 1st 'let' line).
+
+let x = 5;
+let y = 6;
+let z = 7;
+
+function(x, y, z) {
+
+}
+
+-> Vjjd jjVp Vjj>
+--------------------------------------------------------------------------
+
+8) Quickest Way to Delete to the End of the File
+Type out the keystrokes to delete all text until the end of the file, starting
+at the beginning of the line with 'This'.
+
+-> dG
+
+This
+text
+will
+all
+be
+deleted!

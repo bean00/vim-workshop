@@ -7,3 +7,15 @@
  * Visit http://www.pragmaticprogrammer.com/titles/dnvim2 for more book information.
 ***/
 var foo = "method("+argument1+","+argument2+")";
+^
+start
+
+/**
+ * Pad each '+' with spaces
+ *
+ * Type:
+ * f+
+ * s <space> + <space> <Esc>
+ * ;
+ * .
+ * /
